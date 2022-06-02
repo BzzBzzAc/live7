@@ -1,0 +1,241 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+li{list-style-type: none;}
+:focus, :active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;} 
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0%; border: 0;}
+a, a:visited{text-decoration: none;}
+
+* {box-sizing: border-box;}
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-nav{display: none;}
+    .container-video{display: none;}
+    .half-div{
+        display: block;
+        width: 100%;
+    }
+    .container-row{display: block;
+    width: 100%;}
+
+    .wrapper {
+    }
+    .header {
+    }
+    .header-nav {
+    }
+    .logo {
+    }
+    .a-logo {
+    }
+    .nav-container {
+    }
+    .nav {
+    }
+    .ul-nav {
+    }
+    .li-nav {
+    }
+    .a-nav {
+    }
+    .active {
+    }
+    .half-div {
+    }
+    .header-main {
+    }
+    .header-img {
+    }
+    .header-container-text {
+    }
+    .header-txt {
+    }
+    .contact-btn {
+    }
+    .chat-container {
+    }
+    .form-chat {
+    }
+    .chat-txt {
+    }
+    .chat-fild {
+    }
+    .chat-btn-container {
+    }
+    .sub-btn {
+    }
+    .cancel-btn {
+    }
+    .main {
+    }
+    .section {
+    }
+    .container-text {
+    }
+    .title {
+    }
+    .about-title {
+    }
+    .main-txt {
+    }
+    .signature-img {
+    }
+    .s-skills {
+    }
+    .container-row {
+    }
+    .skills-div {
+    }
+    .skills-div-one {
+    }
+    .skills-title {
+    }
+    .skill-txt {
+    }
+    .contairet-skill {
+    }
+    .skill-style {
+    }
+    .uiux {
+    }
+    .web {
+    }
+    .mar {
+    }
+    .containet-img {
+    }
+    .half-img {
+    }
+    .prof-container {
+    }
+    .content-container {
+    }
+    .icon-container {
+    }
+    .prof-icons {
+    }
+    .prof-txt-container {
+    }
+    .prof-text {
+    }
+    .row-images-flex {
+    }
+    .images-container {
+    }
+    .my-images {
+    }
+    .revers-bg {
+    }
+    .modal {
+    }
+    .close {
+    }
+    .modal-container {
+    }
+    .btn-container {
+    }
+    .out-work-title {
+    }
+    .container-video {
+    }
+    .row-more {
+    }
+    .more-container {
+    }
+    .more {
+    }
+    .icons {
+    }
+    .title-more {
+    }
+    .text-more {
+    }
+    .slides-section {
+    }
+    .slider-container {
+    }
+    .my-slide {
+    }
+    .slide {
+    }
+    .txt {
+    }
+    .quote {
+    }
+    .dots {
+    }
+    .dot {
+    }
+    .partner-logo {
+    }
+    .img-icons-container {
+    }
+    .img-icons {
+    }
+    .container-form {
+    }
+    .form-container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .inp-row {
+        display: block;
+    }
+    .inp-name {
+    }
+    .inp-emeil {
+    }
+    .inp-col {
+    }
+    .inp-title {
+        min-width: 90%;
+    }
+    .textarea {
+        min-width: 90%;
+    }
+    .msg-btn {
+    }
+    .footer {
+    }
+    .footer-container {
+    }
+    .copy {
+    }
+    .info {
+    }
+    .media {
+    }
+}

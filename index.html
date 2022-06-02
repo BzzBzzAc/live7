@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/chat.css">
+    <link rel="stylesheet" href="style/size.css">
+    <title>We Design and Develop</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-nav">
+          <div class="logo">
+            <a href="#" class="a-logo"><img src="images/logo/logo_2082.png" alt="" class="logo"></a>
+          </div>
+          <div class="nav-container">
+            <nav class="nav">
+              <ul class="ul-nav">
+                <li class="li-nav"><a href="index.html" class="a-nav active" >home</a></li>
+                <li class="li-nav"><a href="pages/about.html" class="a-nav">about</a></li>
+                <li class="li-nav"><a href="pages/project.html" class="a-nav">work</a></li>
+                <li class="li-nav"><a href="#" class="a-nav">proces</a></li>
+                <li class="li-nav"><a href="#" class="a-nav">services</a></li>
+                <li class="li-nav"><a href="#" class="a-nav">tetstimonials</a></li>
+                <li class="li-nav"><a href="pages/contacts.html" class="a-nav">contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="half-div">
+          <div class="header-main">
+            <img src="images/Man-working-on-laptop-icon-illustration-on-transparent-background-PNG.png" alt="" class="header-img">
+          </div>
+          <div class="header-main">
+            <div class="header-container-text">
+              <h1>We Design and Develop</h1>
+              <p class="header-txt">We are a new design studio based in USA. We have over 
+                20 years of combined experience, and know a thing or two 
+                about designing websites and mobile apps.</p>
+                <button class="contact-btn" onclick="openChat()">contact us</button>
+            </div>
+          </div>
+        </div>
+        <div class="chat-container" id="myChat">
+            <form action="#" class="form-chat" method="post">
+              <p class="chat-txt">Enter your question</p>
+              <label for="msg"></label>
+              <textarea name="msg" class="chat-fild" placeholder="Type message.." required></textarea>
+              <div class="chat-btn-container">
+                <button type="submit" class="sub-btn">sent</button>
+                <button class="cancel-btn" onclick="closeChat()">close</button>
+              </div>
+            </form>
+        </div>
+      </header>
+      <main class="main">
+        <section class="section ">
+          <div class="container-text">
+            <h2 class="title about-title">About Us</h2>
+            <p class="main-txt">Divide have don't man wherein air fourth. Own itself make have night won't make. 
+              A you under Seed appear which good give. Own give air without fowl moveth dry first 
+              heaven fruit, dominion she'd won't very all.</p>
+            <img src="images/signature_1784.png" alt="" class="signature-img">
+          </div>
+        </section>
+        <section class="section s-skills">
+          <div class="container-row">
+            <div class="half-div skills-div">
+              <div class="skills-div-one">
+                <h3 class="title skills-title">Professional Skills</h3>
+                <p class="skill-txt">UI/UX Design  75%</p>
+                <div class="contairet-skill">
+                  <div class="skill-style uiux"></div>
+                </div>
+                <p class="skill-txt">web development  90%</p>
+                <div class="contairet-skill">
+                  <div class="skill-style web"></div>
+                </div>
+                <p class="skill-txt">marketing  65%</p>
+                <div class="contairet-skill">
+                  <div class="skill-style mar"></div>
+                </div>
+              </div>
+            </div>
+            <div class="half-div">
+              <div class="containet-img">
+                <img src="images/pensil.png" alt="aaa" class="half-img">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="container-row">
+            <div class="prof-container">
+              <div class="content-container">
+                <div class="icon-container"><img src="images/icons/pe_7s_portfolio_1911.png" alt="" class="prof-icons"></div>
+                <div class="prof-txt-container">
+                  <p class="prof-text">548</p>
+                  <p class="prof-text">projects completed</p>
+                </div>
+              </div>
+              <div class="content-container">
+                <div class="icon-container"><img src="images/icons/pe_7s_clock_1906.png" alt="" class="prof-icons"></div>
+                <div class="prof-txt-container">
+                  <p class="prof-text">1465</p>
+                  <p class="prof-text">WORKING HOURS</p>
+                </div>
+              </div>
+              <div class="content-container">
+                <div class="icon-container"><img src="images/icons/pe_7s_star_1901.png" alt="" class="prof-icons"></div>
+                <div class="prof-txt-container">
+                  <p class="prof-text">612</p>
+                  <p class="prof-text">POSITIVE FEEDBACKS</p>
+                </div>
+              </div>
+              <div class="content-container">
+                <div class="icon-container"><img src="images/icons/pe_7s_like_1896.png" alt="" class="prof-icons"></div>
+                <div class="prof-txt-container">
+                  <p class="prof-text">735</p>
+                  <p class="prof-text">HAPPY CLIENTS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="container-row row-images-flex">
+            <div class="images-container"><img src="images/section img/bag-hip.png" alt="bag" class="my-images" id="my-img">
+            </div>
+            <div class="images-container"><img src="images/section img/eco-notebook.png" alt="notebook" class="my-images" id="my-img">
+            </div>
+            <div class="images-container"><img src="images/section img/eco-shampoo.png" alt="shampoo" class="my-images" id="my-img">
+            </div>
+            <div class="images-container"><img src="images/section img/eco-soap.png" alt="soap" class="my-images" id="my-img">
+            </div>
+            <div class="images-container revers-bg"><img src="images/section img/envelope.png" alt="envelope" class="my-images" id="my-img">
+            </div>
+            <div class="images-container revers-bg"><img src="images/section img/Gym-Bottle.png" alt="bottle" class="my-images" id="my-img">
+            </div>
+            <div class="images-container revers-bg"><img src="images/section img/hi-honey.png" alt="honey" class="my-images" id="my-img">
+            </div>
+            <div class="images-container revers-bg"><img src="images/section img/womens-fitted-eco.png" alt="fitted" class="my-images" id="my-img">
+            </div>
+            <div id="more-img-cont">
+              <div class="images-container"><img src="images/section img two/pngfind.com-border-collie-png-5256529.png" alt="bag" class="my-images" id="my-img">
+              </div>
+              <div class="images-container"><img src="images/section img two/pngfind.com-cute-labels-png-2562874.png" alt="notebook" class="my-images" id="my-img">
+              </div>
+              <div class="images-container"><img src="images/section img two/pngfind.com-thors-hammer-png-2716912.png" alt="shampoo" class="my-images" id="my-img">
+              </div>
+              <div class="images-container"><img src="images/section img two/pngfind.com-star-wars-star-destroyer-6782701.png" alt="soap" class="my-images" id="my-img">
+              </div>
+            </div>
+          </div>
+          <div class="modal" id="my-modal">
+            <span class="close">&times;</span>
+            <img class="modal-container" id="img01" alt="">
+            <div id="caption"></div>
+          </div>
+          <div class="btn-container">
+            <button id="btn-show">load more work</button>
+          </div>
+        </section>
+        <section class="section">
+          <div class="container-text">
+            <h2 class="title out-work-title">Our Work Process</h2>
+            <p class="main-txt">Was years it seasons was there form he in in them together over that, 
+              third sixth gathered female creeping bearing behold years.</p>
+          </div>
+          <div class="container-video">
+            <video width="800" height="600" controls>
+              <source src="images/2022-03-26 11.06.49.mp4">
+              hello we are from ukraine</video>
+          </div>
+        </section>
+        <section class="section">
+          <div class="container-row row-more">
+            <div class="more-container">
+              <div class="more">
+                <img src="images/icons/pe_7s_diamond_2010.png" alt="" class="icons">
+              </div>
+              <div class="more">
+                <p class="title-more">ui / ux design</p>
+              </div>
+              <div class="more">
+                <p class="text-more">Be set fourth land god darkness 
+                  make it wherein own</p>
+              </div>
+            </div>
+            <div class="more-container">
+              <div class="more">
+                <img src="images/icons/pe_7s_arc_2005.png" alt="" class="icons">
+              </div>
+              <div class="more">
+                <p class="title-more">web development</p>
+              </div>
+              <div class="more">
+                <p class="text-more">A she'd them bring void moving 
+                  third she'd kind fill</p>
+              </div>
+            </div>
+            <div class="more-container">
+              <div class="more">
+                <img src="images/icons/pe_7s_phone_2000.png" alt="" class="icons">
+              </div>
+              <div class="more">
+                <p class="title-more">app / mobile</p>
+              </div>
+              <div class="more">
+                <p class="text-more">Dominion man second spirit he,
+                  earth they're creeping</p>
+              </div>
+            </div>
+            <div class="more-container">
+              <div class="more">
+                <img src="images/icons/pe_7s_magic_wand_1980.png" alt="" class="icons">
+              </div>
+              <div class="more">
+                <p class="title-more">graphic design</p>
+              </div>
+              <div class="more">
+                <p class="text-more">Open, great whales air rule for, 
+                  fourth life whales</p>
+              </div>
+            </div>
+            <div class="more-container">
+              <div class="more">
+                <img src="images/icons/pe_7s_joy_1995.png" alt="" class="icons">
+              </div>
+              <div class="more">
+                <p class="title-more">game design</p>
+              </div>
+              <div class="more">
+                <p class="text-more">Morning his saying moveth it 
+                  multiply appear life be</p>
+              </div>
+            </div>
+            <div class="more-container">
+              <div class="more">
+                <img src="images/icons/pe_7s_plane_1990.png" alt="" class="icons">
+              </div>
+              <div class="more">
+                <p class="title-more">SEO / marketing</p>
+              </div>
+              <div class="more">
+                <p class="text-more">Give won't after land fill creeping 
+                  meat you, may</p>
+              </div>
+            </div>
+            <div class="more-container">
+              <div class="more">
+                <img src="images/icons/pe_7s_star_1985.png" alt="" class="icons">
+              </div>
+              <div class="more">
+                <p class="title-more">photography</p>
+              </div>
+              <div class="more">
+                <p class="text-more">Creepeth one seas cattle grass 
+                  give moving saw give</p>
+              </div>
+            </div>
+            <div class="more-container">
+              <div class="more">
+                <img src="images/icons/pe_7s_paint_bucket_1975.png" alt="" class="icons">
+              </div>
+              <div class="more">
+                <p class="title-more">illustrations</p>
+              </div>
+              <div class="more">
+                <p class="text-more">Whales likeness hath, man kind 
+                  for them air two won't</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section slides-section">
+          <div class="slider-container">
+            <div class="my-slide">
+              <div class="slide">
+                <h4 class="txt">“ Outstanding job and exceeded all expectations. It was a pleasure 
+                  to work with them on a sizable first project and am looking 
+                  forward to start the next one asap.”</h4>
+                <p class="quote">Michael Hopkins</p>
+              </div>
+            </div>
+            <div class="my-slide">
+              <div class="slide">
+                <h4 class="txt">“ You are the sum total of everything you've ever seen, heard, eaten, smelled, been 
+                  told, forgot - it's all there. Everything influences each of us, and because of that I try to 
+                  make sure that my experiences are positive.”</h4>
+                <p class="quote">Maya Angelou</p>
+              </div>
+            </div>
+            <div class="my-slide">
+              <div class="slide">
+                <h4 class="txt">“ Life is not a spectator sport. If you're going to spend your whole life in the 
+                  grandstand just watching what goes on, in my opinion you're wasting your life.”</h4>
+                <p class="quote">Jackie Robinson</p>
+              </div>
+            </div>
+          </div>
+          <div class="dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="container-row partner-logo">
+            <div class="img-icons-container"><img src="images/1_2050.png" alt="" class="img-icons"></div>
+            <div class="img-icons-container"><img src="images/2_2049.png" alt="" class="img-icons"></div>
+            <div class="img-icons-container"><img src="images/3_2048.png" alt="" class="img-icons"></div>
+            <div class="img-icons-container"><img src="images/4_2047.png" alt="" class="img-icons"></div>
+            <div class="img-icons-container"><img src="images/5_2046.png" alt="" class="img-icons"></div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="container-form">
+            <div class="container-text">
+              <h2 class="title">Need a Project?</h2>
+              <p class="main-txt">Let us know what you're looking for in an agency. We'll take a look and see 
+                if this could be the start of something beautiful.</p>
+            </div>
+            <div class="form-container">
+              <form action="#" method="post">
+                <div class="inp-row">
+                  <input type="text" name="name" class="inp-name" placeholder="Your Name">
+                  <input type="email" name="email" class="inp-emeil" placeholder="Your Email">
+                </div>
+                <div class="inp-col">
+                  <input type="text" name="title" class="inp-title" placeholder="Your Title">
+                  <textarea name="textarea" class="textarea" cols="30" rows="10"></textarea>
+                  <input class="msg-btn" type="button" value="send message">
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container-row">
+          <div class="footer-container">
+            <h5>Piroll Design, Inc.</h5>
+            <p class="copy">© 2017 Piroll. All rights reserved.
+              Designed by robirurk.</p>
+          </div>
+          <div class="footer-container">
+            <p class="info">hello@pirolltheme.com</p>
+            <p class="info">+44 987 065 908</p>
+          </div>
+          <div class="footer-container">
+            <a href="#" class="media">Projects</a>
+            <a href="#" class="media">About</a>
+              <a href="#" class="media">Services</a>
+              <a href="#" class="media">Carreer</a>
+          </div>
+          <div class="footer-container">
+            <a href="#" class="media">News</a>
+            <a href="#" class="media">Events</a>
+            <a href="#" class="media">Contact</a>
+            <a href="#" class="media">Legals</a>
+          </div>
+          <div class="footer-container">
+            <a href="#" class="media">Facebook</a>
+            <a href="#" class="media">Twitter</a>
+            <a href="#" class="media">Instagram</a>
+            <a href="#" class="media">Dribbble</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="script/index.js"></script>
+    <script src="script/slides.js"></script>
+    <script src="script/modals.js"></script>
+    <script src="script/chat.js"></script>
+  </body>
+</html>

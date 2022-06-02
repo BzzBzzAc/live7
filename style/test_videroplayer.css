@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+}
+#container{
+    position: relative;
+    display: flex;
+    width: max-content;
+    height: max-content;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffe4c4;
+}
+#video{}
+#controls{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#play-btn{
+    background-color: #7fffd4;
+    border-radius: 70%;
+}
